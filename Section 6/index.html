@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML 201</title>
+        <link
+            rel="shortcut icon"
+            href="images/favicons/image.png"
+            type="image/png"
+        />
+    </head>
+    <body>
+        <h1 id="top">Welcome to HTML 201</h1>
+        <a href="#bottom">Scroll to bottom of page</a>
+        <p>
+            <span style="text-decoration: underline">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </span>
+            Consequatur amet illo, quis dolorum molestiae modi ipsa eos, dolore
+            fuga explicabo nostrum dicta accusantium pariatur quo doloremque
+            perferendis adipisci tenetur vitae.
+        </p>
+
+        <img
+            src="images/clement-helardot-95YRwf6CNw8-unsplash.jpg"
+            width="400"
+            alt="Computer"
+        />
+        <table border="1" width="100%">
+            <tr>
+                <th colspan="2">Welcome to my website</th>
+            </tr>
+            <tr>
+                <td width="20%"><h3>Navigation</h3></td>
+                <td><h3>Content</h3></td>
+            </tr>
+        </table>
+
+        <style>
+            .classNameHere {
+                padding: 40px;
+                color: white;
+                background-color: black;
+            }
+
+            .uppercase {
+                text-transform: uppercase;
+            }
+            #testingId {
+                border: 5px solid red;
+            }
+        </style>
+
+        <div class="classNameHere uppercase">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+            incidunt aspernatur numquam amet reprehenderit ad, distinctio est
+            perferendis itaque debitis, sed, labore similique modi accusamus
+            consequatur repellat vero quis officia!
+        </div>
+        <div id="testingId">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, esse
+            porro animi vero commodi perspiciatis nemo ipsum necessitatibus?
+            Recusandae sapiente vero accusamus ut debitis in, eaque atque
+            aliquam autem deserunt.
+        </div>
+        <div class="classNameHere">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim in at
+            aperiam, tenetur similique veniam voluptates sunt temporibus non ea
+            porro delectus repellat. Quo error voluptas aut odit, aliquid
+            reiciendis!
+        </div>
+
+        <h3>Format code</h3>
+        <pre>
+            Some stuff here &lt;b&gt;<b>This is bold</b>&lt;/b&gt;
+            Second line here
+        </pre>
+        <p>
+            <code>Lorem ipsum dolor sit</code> amet consectetur adipisicing
+            elit. Beatae maxime ut pariatur, porro, corrupti et dicta error
+            reiciendis debitis, minus quas. Molestiae illum velit ut dignissimos
+            inventore facere praesentium minus.
+        </p>
+
+        <h3>Forms</h3>
+        <form action="" method="get">
+            <div>
+                <input
+                    required
+                    name="email"
+                    type="email"
+                    value="Hello World"
+                    placeholder="Enter your e-mail"
+                />
+            </div>
+            <div>
+                <textarea
+                    required
+                    name="address"
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="Wow a placeholder"
+                >
+Text in here
+                Whitespace does matter in here
+                </textarea>
+            </div>
+            <div>
+                <select name="selected_options">
+                    <option value="" disabled="disabled">- Disabled -</option>
+                    <option value="value1">This is Value 1</option>
+                    <option value="value1">This is Value 2</option>
+                    <option value="default-is-selected" selected="selected">
+                        Selected by Default
+                    </option>
+                </select>
+            </div>
+
+            <button type="submit">Click me!</button>
+        </form>
+
+        <h3>Embeds</h3>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YBOvX6pXOFc?si=o-lIR5k0PiUW6Un7"
+            allowfullscreen
+        ></iframe>
+
+        <div id="bottom">
+            <a href="#top">Back to TOP</a>
+            &copy; 2024
+        </div>
+    </body>
+</html>
